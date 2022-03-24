@@ -294,7 +294,6 @@ main .container {
     right: -190%;
     background-color: var(--color-wight);
     z-index: 90000;
-    color: black;
     border-radius: var(--card-border-radius);
     -webkit-border-radius: var(--card-border-radius);
     -moz-border-radius: var(--card-border-radius);
@@ -360,6 +359,7 @@ main .container {
 .left .side-bar .menu-item .notification-list .info p {
     font-size: .8rem;
     margin-bottom: -.2rem;
+    color:var(--color-dark)
 }
 
 .left .side-bar .menu-item .notification-list .info small {
@@ -1181,8 +1181,12 @@ main .container {
 
     .messages-section .head .icons .close {
         display: inline-block;
+        
     }
-
+    .messages-section .head .icons i {
+        font-size: 1.5rem;
+        margin-right: 1rem;
+    }
     .right .messages-section.active {
         display: block;
         position: fixed;
