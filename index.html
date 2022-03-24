@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/50f385f89f.js" crossorigin="anonymous"></script>
+    <title>Idlib-Social</title>
+</head>
+
+<body>
+    <!-- ============================= Nav Section ============================= -->
+    <nav>
+        <div class="container">
+            <p class="logo text-bold">IdlibSocial</p>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="search-input" placeholder="Search For Creators, posts and people">
+            </div>
+            <div class="create">
+                <button class="btn btn-primary">Create</button>
+                <div class="profile">
+                    <img src="images/Profile.jpg" alt="#">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- =========================== Main Section ================================ -->
+    <main>
+        <div class="container">
+            <!-- ---------------- Left Side ---------------- -->
+            <div class="left">
+                <div class="profile">
+                    <div class="picture-profile">
+                        <img src="images/Profile.jpg" alt="#">
+                    </div>
+                    <div class="profile-text">
+                        <h5>Abdurrazzak</h5>
+                        <span class="text-muted">@Abdo</span>
+                    </div>
+                </div>
+                <div class="side-bar">
+                    <div class="menu-item active">
+                        <i class="fa-solid fa-house"></i>
+                        <p> Home</p>
+                    </div>
+                    <div class="menu-item">
+                        <i class="fa-solid fa-compass"></i>
+                        <p>Explore</p>
+                    </div>
+                    <div class="menu-item " onclick="openNotification()">
+                        <i class="fa-solid fa-bell"><span>9</span></i>
+                        <p>Notifications</p>
+                        <div class="notification-list">
+                            <div class="notification">
+                                <div class="image">
+                                    <img src="images/Profile.jpg" alt="#">
+                                </div>
+                                <div class="info">
+                                    <p><b>Abdo Dbyes</b> accepted your friend request</p>
+                                    <small>2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div class="notification">
+                                <div class="image">
+                                    <img src="images/Profile.jpg" alt="#">
+                                </div>
+                                <div class="info">
+                                    <p><b>Abdo Dbyes</b> accepted your friend request</p>
+                                    <small>2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div class="notification">
+                                <div class="image">
+                                    <img src="images/Profile.jpg" alt="#">
+                                </div>
+                                <div class="info">
+                                    <p><b>Abdo Dbyes</b> accepted your friend request</p>
+                                    <small>2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div class="notification">
+                                <div class="image">
+                                    <img src="images/Profile.jpg" alt="#">
+                                </div>
+                                <div class="info">
+                                    <p><b>Abdo Dbyes</b> accepted your friend request</p>
+                                    <small>2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div class="notification">
+                                <div class="image">
+                                    <img src="images/Profile.jpg" alt="#">
+                                </div>
+                                <div class="info">
+                                    <p><b>Abdo Dbyes</b> accepted your friend request</p>
+                                    <small>2 DAYS AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item" onclick="messagesFocus()">
+                        <i class="fa-solid fa-message"><span>5</span></i>
+                        <p>Message</p>
+
+                    </div>
+                    <div class="menu-item">
+                        <i class="fa-solid fa-bookmark"></i>
+                        <p>BookMarks</p>
+                    </div>
+                    <div class="menu-item">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <p>Analytics</p>
+                    </div>
+                    <div class="menu-item" onclick="openTheme()">
+                        <i class="fa-solid fa-palette"></i>
+                        <p>Theme</p>
+
+                    </div>
+                    <div class="menu-item ">
+                        <i class="fa-solid fa-gear"></i>
+                        <p>Settings</p>
+                    </div>
+                </div>
+                <button class="btn btn-primary">Create</button>
+            </div>
+            <!-- ------------------- Middle ----------------------- -->
+            <div class="middle">
+                <!-- ------------ Stories ------------ -->
+                <div class="stories">
+                    <div class="story">
+                        <img src="images/zakour1.jpg" alt="#" class="profile-image">
+                        <p>Mohammed Zakour</p>
+                    </div>
+                    <div class="story">
+                        <img src="images/rateb1.jpg" alt="#" class="profile-image">
+                        <p>Ahmad Kawsara</p>
+                    </div>
+                    <div class="story">
+                        <img src="images/morhaf1.jpg" alt="#" class="profile-image">
+                        <p>Morhaf Mordaa</p>
+                    </div>
+                    <div class="story">
+                        <img src="images/hamed1.jpg" alt="#" class="profile-image">
+                        <p>Mostafa Hamed</p>
+                    </div>
+                    <div class="story">
+                        <img src="images/nedal1.jpg" alt="#" class="profile-image">
+                        <p>Mohammed Kawsara</p>
+                    </div>
+                    <div class="story">
+                        <img src="images/harba1.jpg" alt="#" class="profile-image">
+                        <p>Abdo Harba</p>
+                    </div>
+                    <div class="story">
+                        <img src="images/saksok1.jpg" alt="#" class="profile-image">
+                        <p>Osama Saksok</p>
+                    </div>
+                    <div class="story">
+                        <img src="images/mokahal1.jpg" alt="#" class="profile-image">
+                        <p>Oday Mokahel</p>
+                    </div>
+                    <div class="story">
+                        <img src="images/dbyes1.jpg" alt="#" class="profile-image">
+                        <p>Mohammed Dbyes</p>
+                    </div>
+                </div>
+                <!-- -------------- Create Post --------------- -->
+                <div class="create-post">
+                    <div class="profile-picture">
+                        <img src="images/Profile.jpg" alt="#">
+                        <input type="text" onblur="removeClass()" placeholder="What's on your mind, Abdo?">
+                    </div>
+
+                    <button class="btn btn-primary">Post</button>
+                </div>
+                <!-- --------------- Posts ---------------- -->
+                <div class="posts">
+                    <div class="post">
+                        <!-- ---------- Header Post -->
+                        <div class="header-post">
+                            <div class="profile-info">
+                                <img src="images/morhaf1.jpg" alt="#">
+                                <div class="info">
+                                    <h4>Morhaf Mordaa</h4>
+                                    <small>Idlib 20 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                        <!-- ---------- Image Post ------------>
+                        <div class="image-post">
+                            <img src="images/morhaf3.jpg" alt="#">
+                        </div>
+                        <div class="actions">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                        <!-- ----------- Counters ---------- -->
+                        <div class="counters">
+                            <div class="likes-counter">
+                                <div class="images">
+                                    <img src="images/zakour1.jpg" alt="#">
+                                    <img src="images/nedal1.jpg" alt="#">
+                                    <img src="images/Profile.jpg" alt="#">
+                                </div>
+                                <span>Liked by <b>Abdo Dbyes</b> and <b>2,543 others</b></span>
+                            </div>
+                            <p><b>Abdo Dbyes</b> It's amazing and nice car,
+                                <b></b>
+                                <span>View all 239 comments</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <!-- ---------- Header Post -->
+                        <div class="header-post">
+                            <div class="profile-info">
+                                <img src="images/zakour1.jpg" alt="#">
+                                <div class="info">
+                                    <h4>Mohammed Zakour</h4>
+                                    <small>Idlib 2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                        <!-- ---------- Image Post ------------>
+                        <div class="image-post">
+                            <img src="images/zakor3.jpeg" alt="#">
+                        </div>
+                        <div class="actions">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                        <!-- ----------- Counters ---------- -->
+                        <div class="counters">
+                            <div class="likes-counter">
+                                <div class="images">
+                                    <img src="images/mokahal1.jpg" alt="#">
+                                    <img src="images/nedal1.jpg" alt="#">
+                                    <img src="images/rateb1.jpg" alt="#">
+                                </div>
+                                <span>Liked by <b>Morhaf Mordaa</b> and <b>243 others</b></span>
+                            </div>
+                            <p><b>Oday mokahal</b> The dollar continues to rise and the Turkish one is declining
+                                <b>#Exchange_Rates</b>
+                                <span>View all 38 comments</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <!-- ---------- Header Post -->
+                        <div class="header-post">
+                            <div class="profile-info">
+                                <img src="images/rateb1.jpg" alt="#">
+                                <div class="info">
+                                    <h4>Ahmad Kawsara</h4>
+                                    <small>Idlib 20 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                        <!-- ---------- Image Post ------------>
+                        <div class="image-post">
+                            <img src="images/rateb3.jpg" alt="#">
+                        </div>
+                        <div class="actions">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                        <!-- ----------- Counters ---------- -->
+                        <div class="counters">
+                            <div class="likes-counter">
+                                <div class="images">
+                                    <img src="images/morhaf1.jpg" alt="#">
+                                    <img src="images/hamed1.jpg" alt="#">
+                                    <img src="images/zakour1.jpg" alt="#">
+                                </div>
+                                <span>Liked by <b>Morhaf Mordaa</b> and <b>43 others</b></span>
+                            </div>
+                            <p><b>Mostafa Hamed</b> Nice!
+                                <b>#Watch</b>
+                                <span>View all 9 comments</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <!-- ---------- Header Post -->
+                        <div class="header-post">
+                            <div class="profile-info">
+                                <img src="images/harba1.jpg" alt="#">
+                                <div class="info">
+                                    <h4>Abdo Harba</h4>
+                                    <small>Idlib 20 HOURS AGO</small>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                        <!-- ---------- Image Post ------------>
+                        <div class="image-post">
+                            <img src="images/harba3.jpg" alt="#">
+                        </div>
+                        <div class="actions">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                        <!-- ----------- Counters ---------- -->
+                        <div class="counters">
+                            <div class="likes-counter">
+                                <div class="images">
+                                    <img src="images/dbyes1.jpg" alt="#">
+                                    <img src="images/mokahal1.jpg" alt="#">
+                                    <img src="images/Profile.jpg" alt="#">
+                                </div>
+                                <span>Liked by <b>Oday Mokahal</b> and <b>1,762 others</b></span>
+                            </div>
+                            <p><b>Morhaf mordaa</b> This street makes me feel comfortable
+                                <b></b>
+                                <span>View all 132 comments</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <!-- ---------- Header Post -->
+                        <div class="header-post">
+                            <div class="profile-info">
+                                <img src="images/mokahal1.jpg" alt="#">
+                                <div class="info">
+                                    <h4>Oday Mokahal</h4>
+                                    <small>France JUST NOW</small>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                        <!-- ---------- Image Post ------------>
+                        <div class="image-post">
+                            <img src="images/mokahal3.jpg" alt="#">
+                        </div>
+                        <div class="actions">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                        <!-- ----------- Counters ---------- -->
+                        <div class="counters">
+                            <div class="likes-counter">
+                                <div class="images">
+                                    <img src="images/harba1.jpg" alt="#">
+                                    <img src="images/nedal1.jpg" alt="#">
+                                    <img src="images/zakour1.jpg" alt="#">
+                                </div>
+                                <span>Liked by <b>Mohammed Zakour</b> and <b>354 others</b></span>
+                            </div>
+                            <p><b>Mohammed Kawsara</b> you are the best photographer
+                                <b>#Cool</b>
+                                <span>View all 23 comments</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <!-- ---------- Header Post -->
+                        <div class="header-post">
+                            <div class="profile-info">
+                                <img src="images/nedal1.jpg" alt="#">
+                                <div class="info">
+                                    <h4>Mohammed Kawsara</h4>
+                                    <small>NEWYORK 2 WEEKS AGO</small>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                        <!-- ---------- Image Post ------------>
+                        <div class="image-post">
+                            <img src="images/nedal3.jpg" alt="#">
+                        </div>
+                        <div class="actions">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                        <!-- ----------- Counters ---------- -->
+                        <div class="counters">
+                            <div class="likes-counter">
+                                <div class="images">
+                                    <img src="images/mokahal1.jpg" alt="#">
+                                    <img src="images//Profile.jpg" alt="#">
+                                    <img src="images/zakour1.jpg" alt="#">
+                                </div>
+                                <span>Liked by <b>Oday Mokahal</b> and <b>4,343 others</b></span>
+                            </div>
+                            <p><b>MOhammed Zakour</b> Do you remember this picture??
+                                <b>#Cukur</b>
+                                <span>View all 865 comments</span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- --------------------- Right Section ---------------------- -->
+            <div class=" right">
+                <!-- ------------ Message -------------- -->
+                <div class="messages-section">
+                    <div class="head">
+                        <h4>Messages</h4>
+                        <div class="icons">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                            <i class="fas fa-times close" onclick="closeMessages()"></i>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" class="search-input" placeholder="Search Message">
+                    </div>
+                    <div class="taps">
+                        <span class="text-bold active">Primary</span>
+                        <span class="text-bold ">General</span>
+                        <span class="text-bold ">Requests(7)</span>
+                    </div>
+                    <div class="messages">
+                        <div class="message">
+                            <div class="image">
+                                <img src="images/nedal1.jpg" alt="#">
+                            </div>
+                            <div class="info">
+                                <h5>Mohammed Kawsara</h5>
+                                <small>Are u wanna to play?</small>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <div class="image">
+                                <img src="images/morhaf1.jpg" alt="#">
+                            </div>
+                            <div class="info">
+                                <h5>Morhaf Mordaa</h5>
+                                <small>Let's go to the course</small>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <div class="image">
+                                <img src="images/mokahal1.jpg" alt="#">
+                                <div class="online"></div>
+                            </div>
+                            <div class="info">
+                                <h5>Oday Mokahal</h5>
+                                <small>Ok, Good bye</small>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <div class="image">
+                                <img src="images/rateb1.jpg" alt="#">
+                            </div>
+                            <div class="info">
+                                <h5>Ahmad Kawsara</h5>
+                                <small>Did you see it before now?</small>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <div class="image">
+                                <img src="images/zakour1.jpg" alt="#">
+                            </div>
+                            <div class="info">
+                                <h5>Mohammed Zakour</h5>
+                                <small>I'll go to sleep now</small>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <div class="image">
+                                <img src="images//hamed1.jpg" alt="#">
+                                <div class="online"></div>
+                            </div>
+                            <div class="info">
+                                <h5>Mostafa Hamed</h5>
+                                <small>Where did you yesterday?</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------ Requests Section ----------------- -->
+                <div class="requests-section">
+                    <p>Requests</p>
+                    <div class="request">
+                        <div class="request-info">
+                            <div class="image">
+                                <img src="images/dbyes1.jpg" alt="#">
+                            </div>
+                            <div class="info">
+                                <h5>Mohammed Dobes</h5>
+                                <small>8 mutual friends</small>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn ">Reject</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="request-info">
+                            <div class="image">
+                                <img src="images/harba1.jpg" alt="#">
+                            </div>
+                            <div class="info">
+                                <h5>Abdo Harba</h5>
+                                <small>22 mutual friends</small>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn ">Reject</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="request-info">
+                            <div class="image">
+                                <img src="images/saksok1.jpg" alt="#">
+                            </div>
+                            <div class="info">
+                                <h5>Osama Saksok</h5>
+                                <small>103 mutual friends</small>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn ">Reject</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- ================= Theme Section =============== -->
+    <div class="theme-customize" ">
+        <div class=" theme">
+        <i class="fas fa-times close" onclick="closeTheme()"></i>
+        <div class="close"></div>
+        <div class="head">
+            <h3>Customize your view</h3>
+            <small>Manage your font size, color, and background</small>
+        </div>
+        <div class="font-size">
+            <h5>Font Size</h5>
+            <div>
+                <p>Aa</p>
+                <div class="progres">
+                    <span></span>
+                    <span></span>
+                    <span class="active"></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <p>Aa</p>
+            </div>
+        </div>
+        <div class="color">
+            <h5>Color</h5>
+            <div class="color-options">
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="background">
+            <h5>Background</h5>
+            <div class="background-options">
+                <div class="light">
+                    <span></span>
+                    <p>Light</p>
+                </div>
+                <div class="Dark">
+                    <span></span>
+                    <p>Dark</p>
+                </div>
+                <div class="Lights-out">
+                    <span></span>
+                    <p>Lights Out</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
