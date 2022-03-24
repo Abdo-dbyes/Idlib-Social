@@ -69,6 +69,7 @@ body {
 
 small {
     color: var(--color-gray);
+    font-size: .8rem
 }
 
 .container {
@@ -371,7 +372,7 @@ main .container {
     top: -.5rem;
     right: -.8rem;
     align-self: center;
-    font-size: .1rem;
+    font-size: .5rem;
     width: fit-content;
     padding: .1rem .4rem;
     border-radius: var(--card-border-radius);
@@ -739,7 +740,7 @@ main .container {
 
 .middle .story p {
     color: rgb(255, 255, 255, 50%);
-    font-size: .5rem;
+    font-size: .7rem;
     position: absolute;
     width: 4rem;
     z-index: 3;
